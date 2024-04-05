@@ -17,7 +17,7 @@ jobs:
     - name: Connect your NGROK account
       run: .\ngrok.exe authtoken 1wMNsMTLKEYszVFlHkBwW1H11UK_3Zv1xzrG98TgTRm4Rqr61
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: 2egfKXTRDdiVGNgDkWdbAmWYUF1_HuqSyBEERmQRLC1ayUt2
     - name: Make YML file for NGROK.
       run: start NGROK-AP.bat
     - name: Enable RDP Access.
